@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anupama-H/resume.git"
+  },
+  "author": "Anupama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anupama-H/resume/issues"
+  },
+  "homepage": "https://github.com/Anupama-H/resume#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-assets-inline": "^1.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-html-pdf-2": "^1.0.6"
+  }
+}

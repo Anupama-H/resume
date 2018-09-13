@@ -1,18 +1,127 @@
-<!DOCTYPE html>
-<head>
-    <link href="css/styles.css" rel="stylesheet" />
+<!DOCTYPE html><html><head>
+    <style>body {
+    font-family: arial;
+    line-height: 1.5;
+    font-size: 15px;
+}
+/* resets */
+p, ul {
+    margin: 0;
+}
+/* resets */
+.fixed-width {
+    width: 950px;
+    margin: 0 auto;
+}
+.header-section {
+    margin: 25px 0 40px;
+}
+.icon {
+    width: 20px;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+.profile-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+.profile-img {
+    border-radius: 50%;
+    width: 130px;
+}
+.profile-right {
+    float: right;
+    line-height: 1.8;
+    text-align: right;
+}
+.profile-right:after {
+    content: " ";
+    display:block;
+    clear: both;
+}
+.section {
+    margin: 30px 0;
+}
+.row {
+    text-align: justify;
+}
+.left-panel, .right-panel {
+    display: inline-block;
+    vertical-align: text-top;
+}
+.left-panel {
+    width: 30%;
+    text-align: right;
+}
+.right-panel {
+    width: 60%;
+}
+.border-line {
+    border-width: 3px;
+    border-color: #007378;
+    border-style: solid;
+    margin: 3px 0 20px 0;
+}
+.small-line {
+    border-width: 1px;
+    border-color: #007378;
+    margin: 20px 0;
+    border-style: solid;
+}
+.push-align {
+    margin-top: 15px;
+}
+.pull-up {
+    margin-top: -5px;
+}
+.large-font {
+    font-size: 16px;
+}
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.sub-title {
+    color: #007378;
+}
+.left-sub-section {
+    width: 75%;
+    display: inline-block;
+}
+.right-sub-section {
+    display: inline-block;
+    width: 20%;
+}
+.align-middle {
+    vertical-align: middle;
+}
+.personal-data {
+    line-height: 1.8;
+}
+.footer-section {
+    margin: 50px 0;
+}
+.footer-section .declaration {
+    margin: 30px 0;
+    text-align: justify;
+}
+.footer-section .footer-info {
+    text-align: right;
+}</style>
 </head>
 <body class="fixed-width">
     <div class="header-section">
         <div class="left-panel align-middle">
             <!-- <img src="https://avatars0.githubusercontent.com/u/5268207?v=4&s=460" class="profile-img"/> -->
-            <img src="https://avatars2.githubusercontent.com/u/5268207?s=400&u=89a2679b14ce8914cd9f7d5544f9a5028b9c3a7c&v=4" class="profile-img"/>
+            <img src="https://avatars2.githubusercontent.com/u/5268207?s=400&amp;u=89a2679b14ce8914cd9f7d5544f9a5028b9c3a7c&amp;v=4" class="profile-img">
         </div>
         <div class="right-panel align-middle">
             <div class="profile-right">
                 <div class="profile-name">Anupama H</div>
-                <div><img class="icon" src="https://cdn3.iconfinder.com/data/icons/internet-and-web-4/78/internt_web_technology-14-128.png"/> anuhosad@gmail.com</div>
-                <div><img class="icon" src="https://cdn3.iconfinder.com/data/icons/faticons/32/smartphone-01-128.png"/> 9242041508</div>
+                <div><img class="icon" src="https://cdn3.iconfinder.com/data/icons/internet-and-web-4/78/internt_web_technology-14-128.png"> anuhosad@gmail.com</div>
+                <div><img class="icon" src="https://cdn3.iconfinder.com/data/icons/faticons/32/smartphone-01-128.png"> 9242041508</div>
             </div>
         </div>
     </div>
@@ -23,7 +132,7 @@
                     <div class="title large-font pull-up">Objective</div>
                 </div>
                 <div class="right-panel">
-                    <hr class="border-line" />
+                    <hr class="border-line">
                 </div>
             </div>
             <div class="row">
@@ -39,7 +148,7 @@
                     <div class="title large-font pull-up">About Me</div>
                 </div>
                 <div class="right-panel">
-                    <hr class="border-line" />
+                    <hr class="border-line">
                 </div>
             </div>
             <div class="row">
@@ -55,7 +164,7 @@
                     <div class="title large-font pull-up">Experience</div>
                 </div>
                 <div class="right-panel">
-                    <hr class="border-line" />
+                    <hr class="border-line">
                 </div>
             </div>
             <div class="row">
@@ -67,13 +176,13 @@
                 </div>
                 <div class="right-panel">
                     <p>
-                        <b>Product Information Management System (PIM)</b><br />
+                        <b>Product Information Management System (PIM)</b><br>
                         Built the Unbxd Product Information Management (PIM) system from scratch. PIM is a tool where the user can efficiently manage all product related content 
                         at one place of instant familiarity with seamless distribution in the right format to various channels. Was responsible for selecting the UI technology, setting up the code base, build lifecycle and  
                         enforcing best practices. Built many reusable components that were used throughout the application which helped in building new features quickly.
-                    </p><br />
+                    </p><br>
                     <p><b>Technologies Used</b> : HTML, CSS, React JS, Less, Node JS, Grunt task runner</p>
-                    <hr class="small-line" />
+                    <hr class="small-line">
                 </div>
             </div>
             <div class="row">
@@ -85,13 +194,13 @@
                 </div>
                 <div class="right-panel">
                     <p>
-                        <b>Inmobi Customer Interface Portal</b><br />
+                        <b>Inmobi Customer Interface Portal</b><br>
             The Inmobi Customer Interface Portal provides a platform for publishers and advertisers to come onboard and advertise/monetize with InMobi. Contributed in building various pages in this portal.
-            <br />As a tech lead I was responsible for delivering all the UI projects for the Performance App Download section on the customer interface portal.
+            <br>As a tech lead I was responsible for delivering all the UI projects for the Performance App Download section on the customer interface portal.
             As part of this worked on creative manager which is a tool to simplify operations around creatives.
-                    </p><br />
+                    </p><br>
                     <p><b>Technologies Used</b> : HTML, CSS, jQuery, Handlebars.js, iBone (an internal library built on top of Backbone.js), Require JS, Less, Play Framework</p>
-                    <hr class="small-line" />
+                    <hr class="small-line">
                 </div>
             </div>
             <div class="row">
@@ -103,24 +212,24 @@
                 </div>
                 <div class="right-panel">
                     <p>
-                        <b>Reseller Platform</b><br />
+                        <b>Reseller Platform</b><br>
             Contributed in building the campaign creation workflows in the Reseller Platform. As part of this built the creation flows for Banner, Interstitial and Video adformats.
-                    </p><br />
+                    </p><br>
                     <p><b>Technologies Used</b> : HTML, CSS, Javascript, React JS, Less</p>
-                    <hr class="small-line" />
+                    <hr class="small-line">
                     <p>
-                        <b>Video Interstitial Ads</b><br />
+                        <b>Video Interstitial Ads</b><br>
             Worked on building video ads and explored solutions for prebuffering videos for a buffer free instant play experience that helped in improving the render rates and play rates significantly.
             Worked on implementing VAST and VPAID mobile video technologies. Also implemented viewability tracking in the video ads through Moat and IAS integrations.
-                    </p><br />
+                    </p><br>
                     <p><b>Technologies Used</b> : HTML5 Video, CSS, Javascript, Grunt task runner</p>
-                    <hr class="small-line" />
+                    <hr class="small-line">
                     <p>
-                        <b>AdFormats</b><br />
+                        <b>AdFormats</b><br>
             Worked on the creation of cutting edge AdFormats like Banner Ads, Static Interstitial Ads, Frame Ads, Enriched Interstitial Ads and Carousal Ads. Automated the ad generation process using Grunt task runner that improved the efficiency of the deliverables.
-                    </p><br />
+                    </p><br>
                     <p><b>Technologies Used</b> : HTML, CSS, Javascript, Grunt task runner</p>
-                    <hr class="small-line" />
+                    <hr class="small-line">
                 </div>
             </div>
             <div class="row">
@@ -132,15 +241,15 @@
                 </div>
                 <div class="right-panel">
                     <p>
-                        <b>InMobi Lifetime Value Platform Portal</b><br />
+                        <b>InMobi Lifetime Value Platform Portal</b><br>
             Contributed in building the InMobi Lifetime Value Platform Portal (LTVP). LTVP is a one stop shop for Mobile App Developers to analyze, monetize, and drive engagement for their Apps.
-                    </p><br />
+                    </p><br>
                     <p><b>Technologies Used</b> : HTML, CSS, jQuery, Underscore.js, Backbone.js, Play Framework</p>
-                    <hr class="small-line" />
+                    <hr class="small-line">
                     <p>
-                        <b>App Intelligence Portal Rich UI</b><br />
+                        <b>App Intelligence Portal Rich UI</b><br>
             Redesigned the App Intelligence Insights portal as part of Bootcamp Project. The main idea was to create a dashboard for the developer where he can view all the required information in brief at one place. The application used various widgets to display all the data visually.
-                    </p><br />
+                    </p><br>
                     <p><b>Technologies Used</b> : Twitter Bootstrap, HTML, CSS, jQuery, HTML5 Canvas was used to build all the widgets and graphs.</p>
                 </div>
             </div>
@@ -151,7 +260,7 @@
                     <div class="title large-font pull-up">Education</div>
                 </div>
                 <div class="right-panel">
-                    <hr class="border-line" />
+                    <hr class="border-line">
                 </div>
             </div>
             <div class="row">
@@ -194,7 +303,7 @@
                     <div class="title large-font pull-up">Accomplishments</div>
                 </div>
                 <div class="right-panel">
-                    <hr class="border-line" />
+                    <hr class="border-line">
                 </div>
             </div>
             <div class="row">
@@ -213,7 +322,7 @@
                     <div class="title large-font pull-up">Conferences / Workshops</div>
                 </div>
                 <div class="right-panel">
-                    <hr class="border-line" />
+                    <hr class="border-line">
                 </div>
             </div>
             <div class="row">
@@ -232,7 +341,7 @@
                     <div class="title large-font pull-up">Other Activities</div>
                 </div>
                 <div class="right-panel">
-                    <hr class="border-line" />
+                    <hr class="border-line">
                 </div>
             </div>
             <div class="row">
@@ -251,7 +360,7 @@
                     <div class="title large-font pull-up">Personal Data</div>
                 </div>
                 <div class="right-panel">
-                    <hr class="border-line" />
+                    <hr class="border-line">
                 </div>
             </div>
             <div class="row">
@@ -286,4 +395,4 @@
             <div>Bangalore</div>
         </div>
     </div>
-</body>
+</body></html>

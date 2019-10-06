@@ -40,6 +40,10 @@ p, ul {
     display:block;
     clear: both;
 }
+.website-url {
+    color: #007378;
+    text-decoration: none;
+}
 .section {
     margin: 30px 0;
 }
